@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookMarks</title>
+    <link rel="icon" href="images/5801789.png">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="sec h-auto position-relative">
+        <div class="container mx-auto">
+            <div class="heading pb-5 
+            w-100">
+                    <h1 class="position-relative ">Bookmarker</h1>
+            </div>
+            <div class="cont w-50 mx-auto text-center mt-3">
+<h2><i class="fa-solid fa-bookmark p-2"></i>Bookmark your favorite sites<i class="fa-solid fa-bookmark p-2"></i></h2>
+            </div>
+            <div class="contain w-100 p-5">
+                <div class="mb-3" id="name">
+                    <label for="exampleFormControlInput1" class="form-label"><i class="fa-solid fa-book p-1"></i>Site Name</label>
+                    <input id="productName"  type="email" class="form-control" 
+                    id="exampleFormControlInput1" placeholder="Bookmark Name">
+                  </div>
+                <div class="mb-3" id="url">
+                    <label for="exampleFormControlInput1" class="form-label"><i class="fa-solid fa-link p-1"></i>Site URL</label>
+                    <input id="productUrl"  type="email" class="form-control" id="exampleFormControlInput1" placeholder="Website URL">
+                  </div>
+                  <div class="button w-100 d-flex justify-content-center" id="submit">
+                    <button class="btn btn-danger px-5">Submit</button>
+                  </div>
+            </div>
+            <div class="container text-center bg-white" id="container">
+                <div class="row flex-column mt-3">
+                    <div class="row p-3 d-flex" id="one">
+<div class="col-3">
+    <div class="item"><p>index</p></div>
+</div>
+<div class="col-3">
+    <div class="item"><p>Website Name</p></div>
+</div>
+<div class="col-3">
+    <div class="item"><p>Visit</p></div>
+</div>
+<div class="col-3">
+    <div class="item"><p>Delete</p></div>
+</div>
+                    </div>
+                    <div id="myrow" class="row p-3 d-flex"></div>
+                </div>
+            </div>
+        </div>
+        <div class="layer appear position-absolute top-0 start-0 end-0 bottom-0 d-flex justify-content-center align-items-center d-none">
+<div class="alert bg-white p-3">
+<div class="top d-flex justify-content-between">
+    <div class="left d-flex gap-1 align-baseline">
+        <div class="rounded-circle  bg-danger h-25 w-25 p-2"><p class="text-white fw-lighter my-1">j</p> </div>
+        <div class="rounded-circle  bg-warning h-25 w-25 p-2"><p class="text-white fw-lighter my-1">j</p></div>
+        <div class="rounded-circle  bg-success h-25 w-25 p-2"><p class="text-white fw-lighter my-1">j</p></div>
+    </div>
+    <div class="right"><button class="exit border-0 bg-transparent pointer-event">
+        <i class="fa-solid fa-xmark"></i>
+    </button></div>
+</div><br>
+<p>Site Name or Url is not valid, Please follow the rules below :</p>
+<span> <i class="fa-solid fa-circle-arrow-right p-1 text-danger"></i>Site name must contain at least 3 characters</span>
+<br><br>
+<span> <i class="fa-solid fa-circle-arrow-right p-1 text-danger"></i>Site URL must be a valid one</span>
+</div>
+        </div>
+    </div>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
