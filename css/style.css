@@ -100,4 +100,18 @@ font-weight: 700;
         }
     }
 }
+@media screen and (max-width:800px) {
+    :root .sec{
+        padding: 0%;
+        
+    }
+    :root .sec .container #myrow {
+            justify-content: space-around;
+            flex-direction: column;
+            flex-wrap: nowrap;
+        }
+    :root .sec .col-3 {
+    width: 100%;
+}
+}
 
